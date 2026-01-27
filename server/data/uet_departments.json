@@ -1,0 +1,827 @@
+[
+  {
+    "department": "Department of Electrical Engineering",
+    "introduction": "The Department of Electrical Engineering was established in 1923 as a part of the Maclagan Engineering College. The Department started a postgraduate program in 1966. It currently offers Ph.D. and M.Sc. degrees in Electrical Engineering and M.Sc. in Artificial Intelligence. The first Master's degree was awarded in 1969 and the first Doctoral degree in 1979.",
+    "offered_programs": [
+      "Ph.D. Electrical Engineering",
+      "M.Sc. Electrical Engineering",
+      "M.Sc. Artificial Intelligence"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Electrical Engineering: Bachelor’s degree in electrical engineering, Telecommunication Engineering, Electronics Engineering, Computer Engineering, Computer (System) Engineering, Mechatronics Engineering, Biomedical Engineering, or Telecommunication System Engineering from a PEC accredited program.",
+      "M.Sc. Artificial Intelligence: Bachelor's degree in Artificial Intelligence (or equivalent), Computer Science (or equivalent), Information Technology, Electrical Engineering, Computer Engineering, Mechatronics Engineering, Computer Systems Engineering, or B.S./B.Sc. in a relevant discipline as determined by PGRC, or M.Sc. (16 years) in Computer Science or Information Technology.",
+      "Ph.D.: 18-years MS/M.Sc./M.Phil. degree in relevant discipline with min CGPA 3.0/4.0 or 60% marks."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Muhammad Shoaib (Dean)",
+        "Dr. Muhammad Tahir (Chairman)",
+        "Dr. Haroon Attique Babri (Emeritus)",
+        "Dr. Shahid Hussain Bokhari (Emeritus)",
+        "Dr. Muhammad Asghar Saqib",
+        "Dr. Kashif Javed",
+        "Dr. Muhammad Aamer Iqbal Bhatti",
+        "Dr. Syed Abdul Rahman Kashif",
+        "Dr. Farhan Mahmood"
+      ],
+      "associate_professors": [
+        "Dr. Asim Loan",
+        "Dr. Irfan Ullah Chaudhary",
+        "Dr. Umar T Shami",
+        "Dr. Rabia Nazir",
+        "Dr. Ahsen Tahir",
+        "Dr. Ubaid Ullah Fayyaz",
+        "Dr. Haroon Farooq (RCET Campus)",
+        "Dr. Waqas Tariq Toor (Narowal Campus)"
+      ],
+      "assistant_professors": [
+        "Dr. Nauman Ahmed",
+        "Dr. Syed Shah Irfan Hussain",
+        "Dr. Naveed Nawaz",
+        "Dr. Adeem Aslam",
+        "Dr. Omer Lateef",
+        "Dr. Farooq Ahmad",
+        "Dr. Salman Fakhar",
+        "Dr. Suleman Sami Qazi",
+        "Dr. Muhammad Imran Javed",
+        "Dr. Naveed Akhtar (RCET Campus)",
+        "Dr. Rana Tariq Mehmood Ahmad (Narowal Campus)"
+      ],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Computer Science",
+    "introduction": "The Department of Computer Science is one of the prominent and oldest centers of computer education in the country. Its history dates back to 1968 when UET Lahore established a Computer Center under the supervision of the Department of Mathematics. A Bachelor degree program was started in 1976, upgraded to M.Sc. in 1978 (the first graduate program of the country in computer science). The center became an independent Department of Computer Science in 1991.",
+    "offered_programs": [
+      "Ph.D. Computer Science",
+      "M.Sc. Computer Science",
+      "M.Sc. Software Engineering",
+      "M.Sc. Data Science (via Institute of Data Science, see 1.3)"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Computer Science: Sixteen-year education with terminal degree in Computing (any related domains) or terminal degree suitable for Computer Science. Suitability determined by",
+      "M.Sc. Software Engineering: Sixteen-year education with terminal degree in Computing (any related domains) or terminal degree suitable for Software Engineering. Suitability determined by PGRC.",
+      "Ph.D.: 18-years MS/M.Sc./M.Phil. degree in relevant discipline with min CGPA 3.0/4.0 or 60% marks."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Muhammad Shoaib (Dean)",
+        "Dr. Usman Ghani Khan (Chairman)",
+        "Dr. Shazia Arshad",
+        "Dr. Muhammad Aslam",
+        "Dr. Muhammad Awais Hassan"
+      ],
+      "associate_professors": [
+        "Dr. Muhammad Junaid Arshad",
+        "Dr. Tauqir Ahmad",
+        "Dr. Amjad Farooq"
+      ],
+      "assistant_professors": [
+        "Dr. Talha Waheed",
+        "Dr. Syed Khaldoon Khurshid",
+        "Dr. Amna Zafar",
+        "Dr. Faiza Iqbal",
+        "Dr. Ayesha Altaf",
+        "Dr. Samyan Qayyum Wahla",
+        "Dr. Maida Shahid",
+        "Dr. Atif Hussain",
+        "Dr. Abqa Javed"
+      ],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Institute of Data Science",
+    "introduction": "The M.Sc. Data Science program has been initialized in the Department of Computer Science with a vision to understand and process data/information in the modern era. The institute expects graduate- level students to acquire knowledge ranging from fundamental concepts to advanced levels of data science, focusing on customizing the collection of local data to solve problems with a data-driven approach.",
+    "offered_programs": [
+      "M.Sc. Data Science"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Data Science: Sixteen-year education with terminal degree in Computing (any related domains) or terminal degree suitable for Data Science. Suitability determined by PGRC."
+    ],
+    "faculty_members": {
+      "professors": [],
+      "associate_professors": [],
+      "assistant_professors": [],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Computer Engineering",
+    "introduction": "The Department of Computer Engineering was established as an independent department in 2020. It was originally part of the Department of Computer Science and Engineering. The department offers Ph.D., M.Sc., and B.Sc. degree programs in Computer Engineering and B.Sc. in Cyber Security.",
+    "offered_programs": [
+      "Ph.D. Computer Engineering",
+      "M.Sc. Computer Engineering"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Computer Engineering: Four years B.S./B.Sc. degree in Computer (Systems) Engineering, Software Engineering, Computer Science, Electronic Engineering, Electrical Engineering, Telecommunication Engineering, Artificial Intelligence, Information Technology, or a four-year degree in any other related discipline."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Muhammad Shoaib (Dean)",
+        "Dr. Ali Hammad Akbar (Chairman)",
+        "Dr. Muhammad Shahbaz"
+      ],
+      "associate_professors": [
+        "Dr. Yasir Saleem",
+        "Dr. Faisal Hayat"
+      ],
+      "assistant_professors": [
+        "Dr. Muhammad Asim Rehmat",
+        "Dr. Fareed Ud Din Mehmood Jafari",
+        "Dr. Beenish Ayesha Akram",
+        "Dr. Sahar Waqar"
+      ],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Mechanical Engineering",
+    "introduction": "The Department of Mechanical Engineering has the distinction of being one of the oldest disciplines since 1923 when this institution came into being as \"Maclagan Engineering College\". In 1961, when the institution was upgraded to an independent Engineering University, Master's and Doctorate programs were introduced.",
+    "offered_programs": [
+      "Ph.D. Mechanical Engineering",
+      "M.Sc. Mechanical Design Engineering",
+      "M.Sc. Thermal Power Engineering",
+      "M.Sc. Renewable Energy Systems Engineering",
+      "M.Sc. Railway Engineering",
+      "M.Sc. Engineering Project Management",
+      "M.Sc. Mechanical Fluid Engineering (New Campus)"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Thermal Power Engineering: B.Sc. Mechanical Engineering, Mechatronics & Control Engg, Automotive Engg, Aerospace Engg, Chemical Engg, or Energy System Engg.",
+      "M.Sc. Mechanical Design Engineering: B.Sc. Mechanical Engg, Industrial & Manufacturing Engg, Automotive Engg, Aerospace Engg, or Mechatronics & Control Engg.",
+      "M.Sc. Renewable Energy Systems Engineering: B.Sc. Mechanical Engg, Renewable Energy/Energy Systems Engg, Electrical Engg, Chemical Engg, or Environmental Engg.",
+      "M.Sc. Railway Engineering: B.Sc. Mechanical, Electrical, Civil, Mechatronics, or Industrial & Manufacturing Engineering.",
+      "M.Sc. Engineering Project Management: Four years Bachelor's Degree in Engineering, Engineering Technology, Computer Science, CRP, or Architecture."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Nasir Hayat (Pro Vice Chancellor)",
+        "Dr. Tauseef Aized Khan (Dean)",
+        "Dr. Asad Naeem Shah (Chairman)",
+        "Dilshad Hussain (Emeritus)",
+        "Dr. Muhammad Asif Mahmood Qureshi",
+        "Dr. Amjad Hussain",
+        "Dr. Ghulam Moeen ud Din",
+        "Dr. M. Mahmood Aslam Bhutta",
+        "Dr. Muhammad Asim"
+      ],
+      "associate_professors": [
+        "Dr. Awais Ahmad Khan",
+        "Dr. Muhammad Usman",
+        "Dr. Zia ul Rehman Tahir",
+        "Dr. Jamal Umar"
+      ],
+      "assistant_professors": [
+        "Dr. Naseer Ahmad",
+        "Dr. Jafar Hussain",
+        "Dr. Jawad Sarwar",
+        "Dr. Syed Nadeem Abbas Shah",
+        "Dr. Muhammad Zubair Sheikh",
+        "Dr. Muhammad Waqar Nasir",
+        "Dr. Talha Khan",
+        "Dr. Hafiz Zahid Nabi"
+      ],
+      "lecturers": [
+        "Dr. Syed Wasim Hasan Zubair",
+        "Dr. Rehmat Bashir",
+        "Dr. Hibbah Akhtar",
+        "& Consultancy facilities are available at the Centre to support educational and industrial",
+        "Ph.D. Automotive Engineering",
+        "M.Sc. Automotive Engineering",
+        "M.Sc. Automotive Engineering: B.Sc. Mechanical Engineering, Automotive Engineering,",
+        "Mechatronics and Control Engineering, Industrial and Manufacturing Engineering, Aerospace",
+        "Engineering, or Energy Engineering.",
+        "Dr. Tauseef Aized Khan (Dean)",
+        "Dr. Amjad Hussain",
+        "Dr. Ali Hussain Kazim (Director)",
+        "Dr. Hasan Izhar Khan",
+        "Dr. Saad Jahangir",
+        "Dr. Muhammad Ali Shahbaz",
+        "Dr. Adeel Shehzad"
+      ]
+    }
+  },
+  {
+    "department": "Department of Industrial & Manufacturing Engineering",
+    "introduction": "The Postgraduate Program of the Department is well established and offers M.Sc. and Ph.D. degrees in two specializations: Engineering Management & Manufacturing Engineering. The program has earned its credibility over the years due to its updated curriculum designed according to industrial requirements and technological advancements.",
+    "offered_programs": [
+      "Ph.D. Manufacturing Engineering",
+      "Ph.D. Engineering Management",
+      "M.Sc. Manufacturing Engineering",
+      "M.Sc. Engineering Management"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Engineering Management: Any B.Sc. Engineering Degree.",
+      "M.Sc. Manufacturing Engineering: Bachelor's degree in Industrial & Manufacturing Engg, Mechatronics & Control Engg, Mechanical Engg, Automotive Engg, Metallurgical & Materials Engg, Polymer & Process Engg, Textile Engg, Aerospace Engg, or relevant degree."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Tauseef Aized (Dean)",
+        "Dr. Nadeem Ahmad Mufti (Emeritus)",
+        "Dr. Muhammad Qaiser Saleem (Chairman)"
+      ],
+      "associate_professors": [
+        "Dr. Kashif Ishfaq",
+        "Dr. Sarmad Ali Khan",
+        "Dr. Sadaf Zahoor (On Leave)"
+      ],
+      "assistant_professors": [
+        "Dr. Rakhshanda Naveed",
+        "Dr. Syed Farhan Raza Rizvi",
+        "Dr. Muhammad Faisal Shahzad",
+        "Dr. Sana Ehsan"
+      ],
+      "lecturers": [
+        "Dr. Kiran Mughal"
+      ]
+    }
+  },
+  {
+    "department": "Department of Mechatronics & Control Engineering",
+    "introduction": "The fast dynamics of modern technology called for merging electronics engineering with mechanical engineering into a new discipline called \"Mechatronics\". Mechatronics is the synergistic combination of precision mechanical engineering, electronics, control engineering, and computer science aimed at solving complex engineering problems.",
+    "offered_programs": [
+      "Ph.D. Mechatronics Engineering",
+      "M.Sc. Mechatronics Engineering"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Mechatronics Engineering: B.Sc. Mechatronics, Mechanical, Industrial & Manufacturing, Electrical/Electronic, Computer, Aeronautical, Aerospace/Avionics, Automotive, or Biomedical Engineering."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Tauseef Aized (Dean)",
+        "Dr. Waqar Mahmood"
+      ],
+      "associate_professors": [
+        "Dr. Ali Raza (Chairman)",
+        "Dr. Mohsin Rizwan",
+        "Dr. M. Ahsan",
+        "Dr. Syed Abbas Zilqurnain Naqvi"
+      ],
+      "assistant_professors": [
+        "Dr. Maria Akram",
+        "Dr. Ayisha Nayyar",
+        "Dr. Muhammad Ahsan Naeem",
+        "Dr. Maliha Saleem Bakhshi"
+      ],
+      "lecturers": [
+        "Dr. Muhammad Rzi Abbas"
+      ]
+    }
+  },
+  {
+    "department": "Department of Civil Engineering",
+    "introduction": "The Department of Civil Engineering is one of the oldest departments in the country, established in 1939 as a part of the Maclagan Engineering College, Lahore. Currently, it has an enrolment of over 1000 students in bachelor, Master, and Ph.D. programs. The department has a strong alumni backup of more than 8000 alumni.",
+    "offered_programs": [
+      "Ph.D. Civil Engineering",
+      "M.Sc. Structural Engineering",
+      "M.Sc. Geotechnical Engineering",
+      "M.Sc. Hydraulics & Irrigation Engineering",
+      "M.Sc. Disaster Mitigation Engineering"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Structural Engineering: [Implied B.Sc. Civil Engineering or relevant as per departmental PGRC, standard M.Sc. Civil requirement].",
+      "M.Sc. Disaster Mitigation Engineering: 16 years education in Civil, Architectural, Transportation, Environmental, Geological, Petroleum, or Mining Engineering."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Khalid Farooq (Dean)",
+        "Dr. Noor Muhammad Khan (Chairman)",
+        "Dr. Asad Ullah Qazi",
+        "Dr. Asif Hameed",
+        "Dr. M. Burhan Sharif",
+        "Dr. Rashid Hameed",
+        "Dr. Hassan Mujtaba Shahzad",
+        "Dr. Abdul Sattar Shakir (Emeritus)",
+        "Dr. Habib Ur Rehman (Emeritus)"
+      ],
+      "associate_professors": [
+        "Dr. Muhammad Azhar Saleem",
+        "Dr. Safeer Abbas",
+        "Dr. Qasim Shaukat Khan",
+        "Dr. Ali Ahmed",
+        "Dr. Nauman Khurram",
+        "Dr. Jahanzaib Israr",
+        "Dr. Muhammad Irfan-ul-Hassan",
+        "Dr. Wasim Abbas",
+        "Dr. Rizwan Azam",
+        "Dr. Muhammad Mazhar Saleem",
+        "Dr. M. Rizwan Riaz",
+        "Dr. Syed Asad Ali Gillani",
+        "Dr. Usman Akmal"
+      ],
+      "assistant_professors": [
+        "Dr. Imtiaz Rashid",
+        "Dr. Muhammad Yousaf",
+        "Dr. Umbreen us Sahar",
+        "Dr. Aqsa Shabbir",
+        "Dr. Muhammad Ali Falak",
+        "Dr. Muhammad Kashif",
+        "Dr. Ehtesham Mehmood (On Leave)",
+        "Engr. Usman Ali"
+      ],
+      "lecturers": [
+        "Dr. Ubaid Ahmed Mughal"
+      ]
+    }
+  },
+  {
+    "department": "Department of Transportation Engineering & Management",
+    "introduction": "Established under the Faculty of Civil Engineering in 2002, this Department aimed to produce transportation engineers capable of planning, designing, constructing, managing, operating, and maintaining various modes of transportation. It has the distinction of being the first department in Pakistan to offer a formal M.Sc. Degree course in Transportation Informatics.",
+    "offered_programs": [
+      "Ph.D. Transportation Engineering",
+      "M.Sc. Transportation Engineering",
+      "M.Sc. Transportation Informatics"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Transportation Engineering: B.Sc. in Transportation Engineering, Civil Engineering, or Urban Engineering.",
+      "M.Sc. Transportation Informatics: 16 years education (B.Sc./M.Sc.) in Computer Science, or B.Sc. in Computer Engineering or Transportation Engineering."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Khalid Farooq (Dean)",
+        "Dr. Zia-ur-Rehman (Chairman)",
+        "Dr. Ammad Hassan Khan"
+      ],
+      "associate_professors": [
+        "Dr. Abdur Rahim"
+      ],
+      "assistant_professors": [
+        "Dr. Izza Anwer",
+        "Dr. Hina Saleemi",
+        "Dr. Saadia Tabassum",
+        "Dr. Mujassim Ali Rizvi",
+        "Dr. Bilal Zia Malik"
+      ],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Institute of Environmental Engineering & Research",
+    "introduction": "Established in 1972 as a post-graduate research institute, it is the premier educational institution in the field of Environmental Engineering in Pakistan. It is also one of the oldest and most reliable organizations providing commercial testing services in water, wastewater, and air.",
+    "offered_programs": [
+      "Ph.D. Environmental Engineering",
+      "Ph.D. Environmental Sciences",
+      "M.Sc. Environmental Engineering",
+      "M.Phil. Environmental Sciences"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Environmental Engineering: B.Sc. in Civil, Chemical, Environmental, Transportation, Mechanical Engineering, or Architectural Engineering & Design.",
+      "M.Phil. Environmental Sciences: 16 years of education (BS/MSc) in Environmental Science, Chemistry, Biochemistry, Zoology, Botany, Agricultural Sciences, B.Sc. Environmental Engg, Civil Engg, or Chemical Engg."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Khalid Farooq (Dean)",
+        "Dr. Amir Ikhlaq (Director)",
+        "Dr. Javed Anwar Aziz (Emeritus)"
+      ],
+      "associate_professors": [
+        "Dr. Muhammad Umar Farooq",
+        "Dr. Muhammad Irfan Jalees",
+        "Dr. Mehwish Anis",
+        "Dr. Ghulam Hussain"
+      ],
+      "assistant_professors": [
+        "Dr. Fizza Zahid"
+      ],
+      "lecturers": [
+        "Dr. Gul-E-Hina"
+      ]
+    }
+  },
+  {
+    "department": "Department of Architectural Engineering & Design",
+    "introduction": "Established in 2001, this department holds the distinction of being the pioneer of the Architectural Engineering discipline in the country. The primary objective is to provide high-quality education and prepare students to become successful professionals equipped with innovative, interdisciplinary approaches tailored to the evolving demands of the construction sector.",
+    "offered_programs": [
+      "Ph.D. Architectural Engineering",
+      "M.Sc. Integrated Building Design",
+      "M.Sc. Construction Management",
+      "M.Sc. Building Engineering"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Construction Management: B.Sc. Architectural, Civil, Transportation, Construction Management, City and Regional Planning, or Bachelor of Architecture.",
+      "M.Sc. Integrated Building Design: B.Sc. Architectural Engineering & Design, Civil Engineering, or Bachelor of Architecture."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Khalid Farooq (Dean)",
+        "Dr. Khuram Rashid (Chairman)",
+        "Dr. Sajjad Mubin"
+      ],
+      "associate_professors": [
+        "Dr. Maria Idrees"
+      ],
+      "assistant_professors": [
+        "Dr. Nasir Javed",
+        "Dr. Ahmad Riaz",
+        "Dr. Sidra Jamshed"
+      ],
+      "lecturers": [
+        "Dr. Anam Fatima",
+        "Mr. H. Abrar Ahmad",
+        "Dr. Abdul Mueed Iqbal",
+        "Dr. Huda Riaz",
+        "Ms. Afia Razzaq",
+        "Ms. Khadija Mawra"
+      ]
+    }
+  },
+  {
+    "department": "Center of Excellence in Water Resources Engineering",
+    "introduction": "Established in 1976 under the Presidential Act, the Centre was primarily established with the objectives of high-level goal-oriented teaching and research in water resources. These objectives are being followed by imparting M.Sc. and Ph.D. degrees and conducting specialized training programs.",
+    "offered_programs": [
+      "Ph.D. Engineering Hydrology",
+      "Ph.D. Water Resources Engineering",
+      "Ph.D. Water Resources Management",
+      "M.Sc. Water Resources Engineering",
+      "M.Sc. Water Resources Management",
+      "M.Sc. Engineering Hydrology",
+      "M.Sc. Hydro Power Engineering"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Engineering Hydrology: B.Sc. or equivalent (16 years) in Civil, Agricultural, Geological Engineering; Civil/Agricultural Technology; Hydrology, Applied Geology, GIS, Forestry, Soil/Environmental Sciences, etc.",
+      "M.Sc. Water Resources Management: B.Sc. or equivalent (16 years) in Agricultural, Civil, Geological Engineering; Applied Geology, Computer Science, Agricultural/Civil Technology, Forestry, Water Resources Mgmt, Soil Science, Environmental Engineering, etc."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Khalid Farooq (Dean)",
+        "Dr. Muhammad Atiq Ur Rehman Tariq (Director)"
+      ],
+      "associate_professors": [
+        "Dr. Muhammad Kaleem Sarwar",
+        "Dr. Ghulam Nabi",
+        "Dr. Muhammad Waseem"
+      ],
+      "assistant_professors": [
+        "Dr. Muhammad Masood",
+        "Dr. Mudassar Iqbal",
+        "Dr. Zaheer Muhammad Malik",
+        "Dr. Amjad Masood"
+      ],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Chemical Engineering",
+    "introduction": "Established in 1962, it is the first institution in the Country to offer B.Sc., M.Sc., and Ph.D. degree programs in Chemical Engineering. The Department started the M.Sc. Chemical Engineering degree program in 1970. 19",
+    "offered_programs": [
+      "Ph.D. Chemical Engineering",
+      "M.Sc. Chemical Engineering",
+      "M.Sc. Safety, Health and Environment (New Campus)"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Chemical Engineering: [Standard requirement: B.Sc. Chemical Engineering].",
+      "M.Sc. Safety, Health and Environment: B.Sc. Engineering, B.Sc. Engineering Technology,",
+      "M.Sc./B.Sc. (Hon.) 16-years education in Biological/Earth/Environmental/Life/Natural/Physical Sciences, or MBBS."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Naveed Ramzan (Dean)",
+        "Dr. Hafiz Muhammad Zaheer Aslam (Chairman)",
+        "Dr. Saima Yasin (On Leave)"
+      ],
+      "associate_professors": [
+        "Dr. Farhan Javed",
+        "Dr. Muhammad Asif Akhtar",
+        "Dr. Muhammad Azam Saeed",
+        "Dr. Muhammad Faheem",
+        "Dr. Umair Aslam",
+        "Dr. Usman Ali (On Leave)"
+      ],
+      "assistant_professors": [
+        "Dr. Ayesha Irshad",
+        "Dr. Farhan Ahmad",
+        "Dr. Hirra Anjum",
+        "Dr. Humayun Wali",
+        "Dr. Muhammad Wasim Tahir",
+        "Dr. Saira Bano",
+        "Dr. Umer Afzal"
+      ],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Polymer & Process Engineering",
+    "introduction": "The undergraduate program was launched in 2002 under the Polymer Engineering Division of the Department of Chemical Engineering. In January 2006, the university upgraded the division into an independent degree-awarding department. The postgraduate degree program was started in 2007.",
+    "offered_programs": [
+      "Ph.D. Polymer Science and Engineering",
+      "M.Sc. Polymer & Process Engineering",
+      "M.Phil. Polymer Science and Technology"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Polymer & Process Engineering: 16 years education in Polymer Engineering or Chemical Engineering.",
+      "M.Phil. Polymer Science & Technology: 16 years education in Polymer Engg, Chemical Engg, Materials Science & Engg, Physics, Chemistry, or Mechanical Engineering."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Ing. Naveed Ramzan (Dean)",
+        "Dr. Asif Ali Qaiser (Chairman)",
+        "Dr. Farhan Saeed",
+        "Dr. Atif Javaid"
+      ],
+      "associate_professors": [
+        "Dr. Muhammad Sarfraz",
+        "Dr. Yasir Qayyum Gill",
+        "Dr. Rabia Nazar",
+        "Dr. Umar Mehmood"
+      ],
+      "assistant_professors": [
+        "Dr. Muhammad Farooq",
+        "Dr. Muhammad Aamir",
+        "Dr. Zaman Tahir (IPFP Fellow)"
+      ],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Metallurgical & Materials Engineering",
+    "introduction": "Established in 1965, it has the distinction of being one of the oldest institutions in the country to offer bachelor's and master's degrees in Metallurgy. The Master's degree program was started in 1978 and focuses not only on theory but also on research.",
+    "offered_programs": [
+      "Ph.D. Metallurgical and Materials Engineering",
+      "M.Sc. Metallurgical & Materials Engineering",
+      "M.Sc. Surface Science & Engineering",
+      "M.Sc. Materials Science (New)"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Metallurgical and Materials Engineering: B.Sc. in Metallurgical and Materials Engg, Chemical Engg, Polymer Engg, Mechanical Engg, or Industrial and Manufacturing",
+      "M.Sc. Surface Science & Engineering: B.Sc. in Metallurgical and Materials Engg, Chemical Engg, Polymer Engg, Mechanical Engg, or Industrial and Manufacturing Engg."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Ing. Naveed Ramzan (Dean)",
+        "Dr. Muhammad Asif Rafiq (Chairman)",
+        "Dr.-Ing. Furqan Ahmed"
+      ],
+      "associate_professors": [
+        "Dr. Ehsan-ul-Haq",
+        "Dr. Adnan Maqbool"
+      ],
+      "assistant_professors": [
+        "Dr.-Ing. Muhammad Zubair",
+        "Dr.-Ing. Khushnuda Nur",
+        "Dr.-Ing. Amjad Ali"
+      ],
+      "lecturers": [
+        "Dr. Syed Farrukh Alam Zaidi"
+      ]
+    }
+  },
+  {
+    "department": "Department of Mining Engineering",
+    "introduction": "Established in 1954 as part of the Maclagan Engineering College, it is one of the oldest and best mining schools in the region. The postgraduate program in Mining Engineering started in 1976.",
+    "offered_programs": [
+      "Ph.D. Mining Engineering",
+      "M.Sc. Mining Engineering",
+      "M.Sc. Tunneling & Underground Excavation Engineering",
+      "M.Sc. Mineral Processing"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Mining Engineering: B.Sc. in Mining, Geological, Civil, or Petroleum and Gas Engineering.",
+      "M.Sc. Tunneling & Underground Excavation Engineering: B.Sc. in Mining, Geological, or Civil Engineering."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Tauseef Aized (Dean)",
+        "Dr. Zulfiqar Ali",
+        "Dr. Yasir Majeed"
+      ],
+      "associate_professors": [
+        "Dr. Muhammad Azeem Raza"
+      ],
+      "assistant_professors": [
+        "Dr. Shahab Saqib (Chairman)",
+        "Dr. Muhammad Badar Hayat",
+        "Dr. Muhammad Usman Khan",
+        "Dr. Muhammad Shahzad"
+      ],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Geological Engineering",
+    "introduction": "In 2009, the Department started its graduate programs in two disciplines: M.Sc. Geological Engineering and M.Sc. Geological Sciences. These programs are designed for students who 23 have the aptitude for pursuing higher education in rock engineering, geotechnical engineering, and exploration of natural energy resources.",
+    "offered_programs": [
+      "Ph.D. Geological Engineering",
+      "M.Sc. Geological Engineering",
+      "M.Sc. Geological Sciences"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Geological Engineering: B.Sc. Geological, Mining, Petroleum & Gas, or Civil Engineering.",
+      "M.Sc. Geological Sciences: B.S. Geology or M.Sc. Geology (16 years), or B.Sc. Geological/Mining/Petroleum/Civil Engineering."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Muhammad Farooq Ahmed (Chairman)"
+      ],
+      "associate_professors": [
+        "Dr. Muhammad Arshad",
+        "Dr. Ghulam Mohyuddin Sohail"
+      ],
+      "assistant_professors": [
+        "Dr. Hafiz Muhammad Awai Rashid",
+        "Dr. Sadia Ismail"
+      ],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Petroleum & Gas Engineering",
+    "introduction": "The Department has the distinction of being the pioneer in the country to offer a degree program in Petroleum Engineering. The program at UET Lahore has been ranked (51-100) in the world by the prestigious QS Ranking by subject.",
+    "offered_programs": [
+      "Ph.D. Petroleum and Gas Engineering",
+      "M.Sc. Petroleum & Gas Engineering"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. Petroleum & Gas Engineering: B.Sc. Petroleum and Gas, Geological, Mining, Chemical, Civil, or Mechanical Engineering."
+    ],
+    "faculty_members": {
+      "professors": [],
+      "associate_professors": [],
+      "assistant_professors": [],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Architecture",
+    "introduction": "Established in 1962, the Department holds the distinction of being the first institution in Pakistan to offer a Bachelor's degree in Architecture. It continues to maintain its leadership by offering advanced academic programs, including the Master of Architecture (M.Arch) and Ph.D. in Architecture.",
+    "offered_programs": [
+      "Ph.D. in Architecture",
+      "Master of Architecture (M.Arch.)"
+    ],
+    "eligibility_criteria": [
+      "Master of Architecture (M.Arch.): Bachelor of Architecture, B.Sc. Architectural Engineering & Design, City & Regional Planning, or Civil Engineering."
+    ],
+    "faculty_members": {
+      "professors": [],
+      "associate_professors": [],
+      "assistant_professors": [],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of City & Regional Planning",
+    "introduction": "This department has been contributing to nation-building through its graduates since 1962. It is an advanced planning institution in Pakistan, offering top-quality education in City and Regional Planning, Community Development, and Disaster Management.",
+    "offered_programs": [
+      "Ph.D. City and Regional Planning",
+      "M.Sc. City & Regional Planning",
+      "M.Sc. Community Development and Environmental Management",
+      "M.Sc. Disaster Management",
+      "Master in Real Estate Planning and Management"
+    ],
+    "eligibility_criteria": [
+      "M.Sc. City & Regional Planning: B.Sc. City & Regional Planning, Civil Engineering, or Bachelor of Architecture.",
+      "M.Sc. Community Development: B.Sc. CRP, Civil, Transportation, Environmental Engg, Product & Industrial Design, Architecture, Environmental Sciences, Sociology, Geography, Economics, GIS, etc.",
+      "M.Sc. Disaster Management: M.Sc./B.Sc. Honors in Disaster Management, Earth/Environmental/Space/Biological/Management/Agriculture/Medical Sciences, Economics, Sociology, Psychology, Engineering (Civil/Electrical/Mech/Chem/Mining/Geo), CRP, Product Design, Architecture.",
+      "Master in Real Estate Planning and Management: 16-years bachelor's degree in CRP, Product & Industrial Design, Architecture, Engineering Sciences, Business Management, Social Sciences, GIS."
+    ],
+    "faculty_members": {
+      "professors": [],
+      "associate_professors": [],
+      "assistant_professors": [],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Product & Industrial Design",
+    "introduction": "Established in 2006 in UET Main Campus with a vision to address emerging challenges in the field of design. In 2016, the department marked a major milestone by introducing postgraduate studies in Product and Industrial Design.",
+    "offered_programs": [
+      "Master in Product and Industrial Design (M.PID)"
+    ],
+    "eligibility_criteria": [
+      "M.PID: B.Sc. in Product and Industrial Design, Product Design, Industrial Design, Interior Design, Multimedia Design, Communication Design, Textile Design, Graphic Design, Architecture, or CRP."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr.-Ing. Atif Bilal Aslam (Chairman)"
+      ],
+      "associate_professors": [],
+      "assistant_professors": [
+        "Dr. Salman Asghar"
+      ],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Chemistry",
+    "introduction": "The Department started the M.Phil. Applied Chemistry degree program in 2001 and the Ph.D. Chemistry degree program in 2004. Further, M.Phil. in Food Science & Technology was started in 2018. It also offers Applied Chemistry courses to undergraduate degree programs of Engineering disciplines.",
+    "offered_programs": [
+      "Ph.D. Chemistry",
+      "M.Phil. Applied Chemistry",
+      "M.Phil. Food Science and Technology"
+    ],
+    "eligibility_criteria": [
+      "M.Phil. Food Science and Technology: 16-years degree in Food Science and Technology, Chemistry, Biochemistry, Agricultural Chemistry, or Biotechnology.",
+      "M.Phil. Applied Chemistry: [Implied 16 years education in Chemistry/Applied Chemistry]."
+    ],
+    "faculty_members": {
+      "professors": [],
+      "associate_professors": [],
+      "assistant_professors": [],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Mathematics",
+    "introduction": "The Department of Mathematics provides an environment to learn foundations, applications, and creative approaches related to mathematical and engineering problems, thus contributing to research services for science and engineering.",
+    "offered_programs": [],
+    "eligibility_criteria": [],
+    "faculty_members": {
+      "professors": [],
+      "associate_professors": [],
+      "assistant_professors": [],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Physics",
+    "introduction": "The Department offers M.Phil. Applied Physics, M.Phil. Nanoscience and Technology, and Ph.D. Physics. It has produced 37 Ph.D., 627 M.Phil., and 466 M.Sc. Physics students so far. It has three fully equipped Advanced Research Centers including the Centre for Nanotechnology and Advanced Material Research.",
+    "offered_programs": [
+      "Ph.D. Physics",
+      "M.Phil. Applied Physics",
+      "M.Phil. Nano Science and Technology"
+    ],
+    "eligibility_criteria": [
+      "M.Phil. Nano Science and Technology: 16-years degree in Physics, Chemistry, or B.Sc. Engineering (Electrical, Chemical, Metallurgical, Polymer).",
+      "M.Phil. Polymer Science & Technology (Interdisciplinary): 16-years degree in Chemistry, Physics, Chemical Engg, Polymer Engg, Mechanical Engg, or Materials Science."
+    ],
+    "faculty_members": {
+      "professors": [],
+      "associate_professors": [],
+      "assistant_professors": [],
+      "lecturers": []
+    }
+  },
+  {
+    "department": "Department of Islamic Studies",
+    "introduction": "The Department offers postgraduate programs including Ph.D. and M.Phil. in Islamic Studies. It also offers a BS in Islamic Studies with Computer Technology, a pioneering interdisciplinary program designed to harmonize deep-rooted Islamic scholarship with cutting-edge technological expertise.",
+    "offered_programs": [
+      "Ph.D. Islamic Studies",
+      "M.Phil. Islamic Studies"
+    ],
+    "eligibility_criteria": [
+      "M.Phil. Islamic Studies: 16-years bachelor's degree in Islamic Studies or M.A. in Islamic Studies."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Prof. Dr. Muhammad Shoaib (Dean/Chairman)",
+        "Prof. Dr. Hafiz Muhammad Shahbaaz"
+      ],
+      "associate_professors": [
+        "Dr. Muhammad Nadeem Shah",
+        "Dr. Atiq ur Rehman",
+        "Dr. Hafiz Zahid Latif",
+        "Dr. Tanveer Qasim"
+      ],
+      "assistant_professors": [
+        "Dr. Hafiz Qudratullah",
+        "Ms. Gul Saria Ashraf (Ex-Pakistan Leave)"
+      ],
+      "lecturers": [
+        "Hafiz M Naeem",
+        "Saif ul Islam"
+      ]
+    }
+  },
+  {
+    "department": "Institute of Business and Management",
+    "introduction": null,
+    "offered_programs": [
+      "Ph.D. Business Administration and Management",
+      "MBA (30 CH)",
+      "MBA (60 CH)",
+      "Executive MBA",
+      "MS Management",
+      "MS Marketing"
+    ],
+    "eligibility_criteria": [
+      "Executive MBA: 16-years bachelor's degree in any discipline with 3 years professional experience.",
+      "MBA (30 CH): 16-years bachelor's degree in relevant discipline.",
+      "MBA (60 CH): 16-years bachelor's degree in any discipline. MS Management: 16-years bachelor's degree in relevant discipline."
+    ],
+    "faculty_members": {
+      "professors": [
+        "Dr. Muhammad Shahid Rafique (Dean)",
+        "Dr. Muhammad Nasir Malik (Director)"
+      ],
+      "associate_professors": [],
+      "assistant_professors": [
+        "Dr. Amir Ikram",
+        "Dr. Asma Abdul Rehman",
+        "Dr. Farah Samreen",
+        "Dr. Farman Afzal",
+        "Dr. Mehreen Waheed",
+        "Dr. Mishal Ahmad",
+        "Dr. Muhammad Shoaib Farooq",
+        "Dr. Naeem Akhtar",
+        "Dr. Rabia Naseem"
+      ],
+      "lecturers": [
+        "Dr. Maria Khan",
+        "Dr. Qurat ul Ain Akhtar",
+        "Dr. Rizwana Hameed",
+        "Dr. Sadaf Razzaq"
+      ]
+    }
+  }
+]
