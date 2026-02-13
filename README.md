@@ -180,7 +180,7 @@ User asks: "Does CS offer M.Sc. AI?"
 - ADEEL-308
 - RaheelFazil1
 - engrfaizan99
-- ADEEL-308
+- Sabaattiq
 
 ## License
 MIT License
