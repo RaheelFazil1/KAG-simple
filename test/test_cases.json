@@ -1,0 +1,330 @@
+{
+  "metadata": {
+    "project": "UET Lahore KAG Chatbot",
+    "description": "Test cases for verifying chatbot accuracy across standard, tricky, and out-of-scope queries",
+    "total_cases": 30,
+    "categories": {
+      "standard": 15,
+      "tricky": 8,
+      "out_of_scope": 7
+    },
+    "date_created": "2026-02-13"
+  },
+
+  "test_cases": [
+
+    {
+      "id": "STD-01",
+      "category": "standard",
+      "intent": "get_programs",
+      "question": "What programs does the Department of Computer Science offer?",
+      "expected_answer_contains": [
+        "Ph.D. Computer Science",
+        "M.Sc. Computer Science",
+        "M.Sc. Software Engineering",
+        "M.Sc. Data Science"
+      ],
+      "expected_department": "Department of Computer Science",
+      "pass_criteria": "Answer lists all four programs offered by CS department."
+    },
+    {
+      "id": "STD-02",
+      "category": "standard",
+      "intent": "get_programs",
+      "question": "List all programs offered by the Electrical Engineering department.",
+      "expected_answer_contains": [
+        "Ph.D. Electrical Engineering",
+        "M.Sc. Electrical Engineering",
+        "M.Sc. Artificial Intelligence"
+      ],
+      "expected_department": "Department of Electrical Engineering",
+      "pass_criteria": "Answer lists all three programs including M.Sc. Artificial Intelligence."
+    },
+    {
+      "id": "STD-03",
+      "category": "standard",
+      "intent": "get_chairman",
+      "question": "Who is the chairman of the Department of Computer Science?",
+      "expected_answer_contains": ["Dr. Usman Ghani Khan"],
+      "expected_department": "Department of Computer Science",
+      "pass_criteria": "Answer correctly identifies Dr. Usman Ghani Khan as chairman."
+    },
+    {
+      "id": "STD-04",
+      "category": "standard",
+      "intent": "get_dean",
+      "question": "Who is the Dean of the Faculty of Electrical Engineering?",
+      "expected_answer_contains": ["Dr. Muhammad Shoaib"],
+      "expected_department": "Department of Electrical Engineering",
+      "pass_criteria": "Answer correctly identifies Dr. Muhammad Shoaib as dean."
+    },
+    {
+      "id": "STD-05",
+      "category": "standard",
+      "intent": "get_eligibility",
+      "question": "What is the eligibility criteria for M.Sc. Computer Science?",
+      "expected_answer_contains": ["Sixteen-year education", "Computing"],
+      "expected_department": "Department of Computer Science",
+      "pass_criteria": "Answer mentions 16-year education requirement and computing-related terminal degree."
+    },
+    {
+      "id": "STD-06",
+      "category": "standard",
+      "intent": "get_programs",
+      "question": "What programs does Civil Engineering offer?",
+      "expected_answer_contains": [
+        "Ph.D. Civil Engineering",
+        "M.Sc. Structural Engineering",
+        "M.Sc. Geotechnical Engineering",
+        "M.Sc. Hydraulics & Irrigation Engineering",
+        "M.Sc. Disaster Mitigation Engineering"
+      ],
+      "expected_department": "Department of Civil Engineering",
+      "pass_criteria": "Answer lists all five programs offered by Civil Engineering."
+    },
+    {
+      "id": "STD-07",
+      "category": "standard",
+      "intent": "get_chairman",
+      "question": "Who is the chairman of the Mechanical Engineering department?",
+      "expected_answer_contains": ["Dr. Asad Naeem Shah"],
+      "expected_department": "Department of Mechanical Engineering",
+      "pass_criteria": "Answer correctly identifies Dr. Asad Naeem Shah as chairman."
+    },
+    {
+      "id": "STD-08",
+      "category": "standard",
+      "intent": "get_eligibility",
+      "question": "What are the eligibility criteria for M.Sc. Mining Engineering?",
+      "expected_answer_contains": ["B.Sc.", "Mining", "Geological", "Civil", "Petroleum"],
+      "expected_department": "Department of Mining Engineering",
+      "pass_criteria": "Answer lists the required B.Sc. degrees for Mining Engineering admission."
+    },
+    {
+      "id": "STD-09",
+      "category": "standard",
+      "intent": "get_programs",
+      "question": "What master's programs does Chemical Engineering offer?",
+      "expected_answer_contains": [
+        "M.Sc. Chemical Engineering",
+        "M.Sc. Safety, Health and Environment"
+      ],
+      "expected_department": "Department of Chemical Engineering",
+      "pass_criteria": "Answer lists the two master's programs (excludes Ph.D. since user asked for master's)."
+    },
+    {
+      "id": "STD-10",
+      "category": "standard",
+      "intent": "get_chairman",
+      "question": "Who is the chairman of the Electrical Engineering department?",
+      "expected_answer_contains": ["Dr. Muhammad Tahir"],
+      "expected_department": "Department of Electrical Engineering",
+      "pass_criteria": "Answer correctly identifies Dr. Muhammad Tahir as chairman."
+    },
+    {
+      "id": "STD-11",
+      "category": "standard",
+      "intent": "get_programs",
+      "question": "What programs does the Institute of Business and Management offer?",
+      "expected_answer_contains": [
+        "MBA",
+        "MS Management",
+        "MS Marketing",
+        "Ph.D. Business Administration"
+      ],
+      "expected_department": "Institute of Business and Management",
+      "pass_criteria": "Answer lists MBA variants, MS programs, and Ph.D."
+    },
+    {
+      "id": "STD-12",
+      "category": "standard",
+      "intent": "get_eligibility",
+      "question": "What is the eligibility for M.Sc. Mechatronics Engineering?",
+      "expected_answer_contains": ["B.Sc.", "Mechatronics", "Mechanical"],
+      "expected_department": "Department of Mechatronics & Control Engineering",
+      "pass_criteria": "Answer lists the accepted B.Sc. degrees for Mechatronics admission."
+    },
+    {
+      "id": "STD-13",
+      "category": "standard",
+      "intent": "get_programs",
+      "question": "What programs are offered by the Department of Architecture?",
+      "expected_answer_contains": [
+        "Ph.D. in Architecture",
+        "Master of Architecture"
+      ],
+      "expected_department": "Department of Architecture",
+      "pass_criteria": "Answer lists Ph.D. and M.Arch programs."
+    },
+    {
+      "id": "STD-14",
+      "category": "standard",
+      "intent": "vector_search",
+      "question": "Tell me about the Department of Computer Engineering.",
+      "expected_answer_contains": ["2020", "Computer Science and Engineering"],
+      "expected_department": "Department of Computer Engineering",
+      "pass_criteria": "Answer mentions the department was established in 2020, originally part of CS&E."
+    },
+    {
+      "id": "STD-15",
+      "category": "standard",
+      "intent": "get_programs",
+      "question": "What programs does the Physics department offer?",
+      "expected_answer_contains": [
+        "Ph.D. Physics",
+        "M.Phil. Applied Physics",
+        "M.Phil. Nano Science and Technology"
+      ],
+      "expected_department": "Department of Physics",
+      "pass_criteria": "Answer lists all three programs offered by Physics."
+    },
+
+    {
+      "id": "TRICKY-01",
+      "category": "tricky",
+      "intent": "get_programs",
+      "question": "Does the Computer Science department offer M.Sc. Artificial Intelligence?",
+      "expected_answer_contains": ["Electrical Engineering"],
+      "expected_answer_must_not_contain": ["Computer Science offers M.Sc. Artificial Intelligence"],
+      "expected_department": "Department of Electrical Engineering",
+      "pass_criteria": "System MUST clarify that M.Sc. Artificial Intelligence is offered by the Department of Electrical Engineering, NOT Computer Science. This is the key correction logic test."
+    },
+    {
+      "id": "TRICKY-02",
+      "category": "tricky",
+      "intent": "get_programs",
+      "question": "I want to study Artificial Intelligence at the Computer Science department. What are the details?",
+      "expected_answer_contains": ["Electrical Engineering", "M.Sc. Artificial Intelligence"],
+      "expected_answer_must_not_contain": ["Computer Science offers Artificial Intelligence"],
+      "expected_department": "Department of Electrical Engineering",
+      "pass_criteria": "System corrects the user that M.Sc. AI belongs to Electrical Engineering department, not CS."
+    },
+    {
+      "id": "TRICKY-03",
+      "category": "tricky",
+      "intent": "get_eligibility",
+      "question": "What is the eligibility for M.Sc. Artificial Intelligence?",
+      "expected_answer_contains": ["Bachelor's degree", "Artificial Intelligence", "Computer Science", "Electrical Engineering"],
+      "expected_department": "Department of Electrical Engineering",
+      "pass_criteria": "System fetches eligibility from Electrical Engineering department (the true owner of M.Sc. AI) regardless of user assumptions."
+    },
+    {
+      "id": "TRICKY-04",
+      "category": "tricky",
+      "intent": "get_programs",
+      "question": "Is Data Science offered by the Electrical Engineering department?",
+      "expected_answer_contains": ["Computer Science", "Institute of Data Science"],
+      "expected_department": "Institute of Data Science",
+      "pass_criteria": "System corrects that M.Sc. Data Science is under the Institute of Data Science / Department of Computer Science, not Electrical Engineering."
+    },
+    {
+      "id": "TRICKY-05",
+      "category": "tricky",
+      "intent": "get_dean",
+      "question": "Who is the dean of the Computer Science department?",
+      "expected_answer_contains": ["Dr. Muhammad Shoaib"],
+      "expected_answer_must_not_contain": ["Dr. Usman Ghani Khan"],
+      "expected_department": "Department of Computer Science",
+      "pass_criteria": "System returns Dr. Muhammad Shoaib as Dean, NOT the chairman Dr. Usman Ghani Khan. Tests dean vs chairman distinction."
+    },
+    {
+      "id": "TRICKY-06",
+      "category": "tricky",
+      "intent": "get_programs",
+      "question": "Compare the programs offered by Computer Science and Electrical Engineering departments.",
+      "expected_answer_contains": [
+        "Ph.D. Computer Science",
+        "M.Sc. Computer Science",
+        "M.Sc. Software Engineering",
+        "Ph.D. Electrical Engineering",
+        "M.Sc. Electrical Engineering",
+        "M.Sc. Artificial Intelligence"
+      ],
+      "expected_department": ["Department of Computer Science", "Department of Electrical Engineering"],
+      "pass_criteria": "System lists programs from BOTH departments side by side for comparison. M.Sc. AI must appear under Electrical Engineering."
+    },
+    {
+      "id": "TRICKY-07",
+      "category": "tricky",
+      "intent": "get_programs",
+      "question": "Which department offers Geotechnical Engineering?",
+      "expected_answer_contains": ["Civil Engineering", "Geotechnical"],
+      "expected_answer_must_not_contain": ["Geological Engineering"],
+      "expected_department": "Department of Civil Engineering",
+      "pass_criteria": "System correctly identifies M.Sc. Geotechnical Engineering under Civil Engineering, not confusing it with Geological Engineering."
+    },
+    {
+      "id": "TRICKY-08",
+      "category": "tricky",
+      "intent": "get_chairman",
+      "question": "Who heads the Department of Mining Engineering?",
+      "expected_answer_contains": ["Dr. Shahab Saqib"],
+      "expected_department": "Department of Mining Engineering",
+      "pass_criteria": "System identifies Dr. Shahab Saqib as Chairman despite his rank being Assistant Professor (uncommon for chairman role)."
+    },
+
+    {
+      "id": "OOS-01",
+      "category": "out_of_scope",
+      "intent": "blocked",
+      "question": "What is the fee structure for M.Sc. Computer Science?",
+      "expected_answer_contains": ["cannot answer", "out of scope"],
+      "guardrail_triggered": "BLOCKED_FEES",
+      "pass_criteria": "System blocks the query and responds that fee information is out of scope."
+    },
+    {
+      "id": "OOS-02",
+      "category": "out_of_scope",
+      "intent": "blocked",
+      "question": "How much is the tuition fee for Electrical Engineering?",
+      "expected_answer_contains": ["cannot answer", "out of scope"],
+      "guardrail_triggered": "BLOCKED_FEES",
+      "pass_criteria": "System detects 'tuition fee' keyword and blocks the query."
+    },
+    {
+      "id": "OOS-03",
+      "category": "out_of_scope",
+      "intent": "blocked",
+      "question": "Does UET Lahore provide hostel facilities for postgraduate students?",
+      "expected_answer_contains": ["cannot answer", "out of scope"],
+      "guardrail_triggered": "BLOCKED_FACILITIES",
+      "pass_criteria": "System detects 'hostel' keyword and blocks the query."
+    },
+    {
+      "id": "OOS-04",
+      "category": "out_of_scope",
+      "intent": "blocked",
+      "question": "Is there a transport service or shuttle bus at UET?",
+      "expected_answer_contains": ["cannot answer", "out of scope"],
+      "guardrail_triggered": "BLOCKED_FACILITIES",
+      "pass_criteria": "System detects 'transport'/'shuttle' keywords and blocks the query."
+    },
+    {
+      "id": "OOS-05",
+      "category": "out_of_scope",
+      "intent": "blocked",
+      "question": "What is the last date for admission in Spring 2026?",
+      "expected_answer_contains": ["cannot answer", "out of scope"],
+      "guardrail_triggered": "BLOCKED_DATES",
+      "pass_criteria": "System detects 'last date' keyword and blocks the query."
+    },
+    {
+      "id": "OOS-06",
+      "category": "out_of_scope",
+      "intent": "blocked",
+      "question": "When is the entry test scheduled for the next semester?",
+      "expected_answer_contains": ["cannot answer", "out of scope"],
+      "guardrail_triggered": "BLOCKED_DATES",
+      "pass_criteria": "System detects 'entry test'/'schedule' keywords and blocks the query."
+    },
+    {
+      "id": "OOS-07",
+      "category": "out_of_scope",
+      "intent": "blocked",
+      "question": "What are the payment dues for accommodation at UET?",
+      "expected_answer_contains": ["cannot answer", "out of scope"],
+      "guardrail_triggered": "BLOCKED_FEES",
+      "pass_criteria": "System detects 'payment'/'dues'/'accommodation' keywords and blocks the query."
+    }
+  ]
+}
