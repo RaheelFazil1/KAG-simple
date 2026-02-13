@@ -1,11 +1,11 @@
 # Project dependencies
-# Add your required packages below, e.g.:
-# langchain==0.1.0
-# openai==1.0.0
-# requests==2.31.0
 fastapi
 uvicorn
 neo4j
 langchain-ollama
 pydantic
 sentence-transformers
+python-dotenv
+pdfplumber
+streamlit
+requests

@@ -1,17 +1,12 @@
 import json
 import re
+import sys
 import os
 from neo4j import GraphDatabase
 
-# --- Configuration ---
-# Update these with your Neo4j credentials
-URI = "bolt://localhost:7687"
-AUTH = ("neo4j", "password")  # Change 'password' to your actual password
-
-# Get the data directory
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-SERVER_DIR = os.path.dirname(SCRIPT_DIR)
-DATA_DIR = os.path.join(SERVER_DIR, "data")
+# Allow imports from sibling packages
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "app"))
+from config import NEO4J_URI, NEO4J_AUTH, DATA_DIR
 
 class UETGraphLoader:
     def __init__(self, uri, auth):
@@ -126,7 +121,7 @@ class UETGraphLoader:
 if __name__ == "__main__":
     json_file = os.path.join(DATA_DIR, "uet_departments.json")
     
-    loader = UETGraphLoader(URI, AUTH)
+    loader = UETGraphLoader(NEO4J_URI, NEO4J_AUTH)
     
     try:
         # loader.clean_db()  # Uncomment this if you want to wipe the DB and start fresh

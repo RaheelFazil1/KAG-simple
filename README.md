@@ -11,17 +11,38 @@ KAG Chatbot is an intelligent admission assistant for UET Lahore, designed to an
 
 ## Project Structure
 ```
-requirements.txt
-client/
-    app.py           # Streamlit client app
-server/
-    app/
-        kag_engine.py  # Core engine (LLM, Neo4j, logic)
-        main.py        # FastAPI server entrypoint
-    data/
-        uet_departments.json
-    etl/
-        cleanData.py, extractData.py, graph.py
+KAG_CHATBOT/
+├── .env.example              # Environment variable template (copy to .env)
+├── .gitignore
+├── README.md
+├── requirements.txt
+│
+├── backend/
+│   ├── __init__.py
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── config.py         # Centralized configuration (loads .env)
+│   │   ├── schemas.py        # Pydantic request/response models
+│   │   ├── kag_engine.py     # Core KAG engine (LLM, Neo4j, logic)
+│   │   └── main.py           # FastAPI server entrypoint
+│   ├── data/
+│   │   ├── uet_departments.json
+│   │   ├── UET_lahore_Document.pdf
+│   │   └── UET Lahore_Questions Dataset (1).pdf
+│   └── etl/
+│       ├── __init__.py
+│       ├── extract_data.py   # PDF → raw JSON extraction
+│       ├── clean_data.py     # Raw JSON → cleaned JSON
+│       ├── load_graph.py     # JSON → Neo4j graph nodes/edges
+│       ├── index_graph.py    # Embed department intros → Neo4j vectors
+│       └── index_documents.py # Embed full PDF chunks → Neo4j vectors
+│
+├── frontend/
+│   └── app.py                # Streamlit chat UI
+│
+└── tests/
+    ├── __init__.py
+    └── test_cases.json       # 30 test cases (standard, tricky, out-of-scope)
 ```
 
 ## Getting Started
@@ -43,19 +64,42 @@ venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 ```
 
-### 4. Start the FastAPI server
+### 4. Configure environment variables
 ```
-uvicorn server.app.main:app --reload
+copy .env.example .env
+# Edit .env with your Neo4j credentials and model preferences
 ```
 
-### 5. Start the Streamlit client
+### 5. Run the ETL pipeline (first time only)
+```bash
+# Step 1: Extract data from PDF
+python backend/etl/extract_data.py
+
+# Step 2: Clean the extracted data
+python backend/etl/clean_data.py
+
+# Step 3: Load data into Neo4j graph
+python backend/etl/load_graph.py
+
+# Step 4: Create vector indexes
+python backend/etl/index_graph.py
+python backend/etl/index_documents.py
 ```
-streamlit run client/app.py
+
+### 6. Start the FastAPI server
+```
+cd backend/app
+uvicorn main:app --reload
+```
+
+### 7. Start the Streamlit client
+```
+streamlit run frontend/app.py
 ```
 
 ## Test Analysis
 
-We verified the chatbot's accuracy using **30 documented test cases** across three categories. All test cases are stored in [`test_cases.json`](test_cases.json) for reproducibility.
+We verified the chatbot's accuracy using **30 documented test cases** across three categories. All test cases are stored in [`tests/test_cases.json`](tests/test_cases.json) for reproducibility.
 
 ### Test Categories
 
@@ -126,8 +170,10 @@ User asks: "Does CS offer M.Sc. AI?"
 ```
 
 ## Notes
-- Ensure Neo4j is running and accessible at the URI specified in `kag_engine.py`.
-- The `.gitignore` is set up to avoid tracking the `venv` folder and other unnecessary files.
+- All configuration (Neo4j URI, credentials, model names) is managed via `.env` and `backend/app/config.py`.
+- Never commit the `.env` file — only `.env.example` is tracked in git.
+- Ensure Neo4j is running before starting the server.
+- The `.gitignore` is set up to avoid tracking `venv/`, `.env`, `__pycache__/`, and other build artifacts.
 
 ## License
 MIT License

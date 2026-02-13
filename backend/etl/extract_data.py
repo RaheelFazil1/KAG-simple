@@ -2,11 +2,11 @@ import pdfplumber
 import re
 import json
 import os
+import sys
 
-# Get the data directory (1 level up from this file, inside server folder)
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-SERVER_DIR = os.path.dirname(SCRIPT_DIR)
-DATA_DIR = os.path.join(SERVER_DIR, "data")
+# Allow imports from sibling packages
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "app"))
+from config import DATA_DIR
 
 def clean_line(text):
     """Removes bullet points like 'O', extra spaces, and numeric prefixes."""

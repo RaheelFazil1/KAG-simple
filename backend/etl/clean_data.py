@@ -1,11 +1,11 @@
 import json
 import os
 import re
+import sys
 
-# Get the data directory
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-SERVER_DIR = os.path.dirname(SCRIPT_DIR)
-DATA_DIR = os.path.join(SERVER_DIR, "data")
+# Allow imports from sibling packages
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "app"))
+from config import DATA_DIR
 
 def clean_text(text):
     """Remove bullet points, 'o ' prefix, extra whitespace, and trailing section numbers."""

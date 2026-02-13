@@ -4,18 +4,14 @@ from neo4j import GraphDatabase
 from sentence_transformers import SentenceTransformer
 import json
 
-# --- Configuration ---
-NEO4J_URI = "bolt://localhost:7687"
-NEO4J_AUTH = ("neo4j", "password") 
-MODEL_NAME = "llama3.2:1b"
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+from config import NEO4J_URI, NEO4J_AUTH, LLM_MODEL, EMBEDDING_MODEL
 
 class KAGEngine:
     def __init__(self):
         print("Initializing KAG Engine (Natural Response Mode)...")
         
-        self.llm = ChatOllama(model=MODEL_NAME, temperature=0, format="json") 
-        self.chat_llm = ChatOllama(model=MODEL_NAME, temperature=0)
+        self.llm = ChatOllama(model=LLM_MODEL, temperature=0, format="json") 
+        self.chat_llm = ChatOllama(model=LLM_MODEL, temperature=0)
         self.embedder = SentenceTransformer(EMBEDDING_MODEL)
         self.driver = GraphDatabase.driver(NEO4J_URI, auth=NEO4J_AUTH)
 

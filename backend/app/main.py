@@ -1,7 +1,8 @@
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
 from contextlib import asynccontextmanager
+
 from kag_engine import KAGEngine
+from schemas import QueryRequest, QueryResponse
 
 # --- Global Engine Instance ---
 kag_engine = None
@@ -17,15 +18,6 @@ async def lifespan(app: FastAPI):
 
 # --- API Setup ---
 app = FastAPI(title="UET KAG System", lifespan=lifespan)
-
-# --- Request / Response Models ---
-class QueryRequest(BaseModel):
-    question: str
-
-class QueryResponse(BaseModel):
-    question: str
-    answer: str
-    generated_cypher: str
 
 # --- Endpoints ---
 @app.get("/")

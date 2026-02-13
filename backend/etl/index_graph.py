@@ -1,17 +1,17 @@
 import os
+import sys
 from neo4j import GraphDatabase
 from sentence_transformers import SentenceTransformer
 
-# --- Configuration ---
-URI = "bolt://localhost:7687"
-AUTH = ("neo4j", "password")  # Update with your password
-MODEL_NAME = "all-MiniLM-L6-v2"  # Small, fast local model
+# Allow imports from sibling packages
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "app"))
+from config import NEO4J_URI, NEO4J_AUTH, EMBEDDING_MODEL
 
 class GraphIndexer:
     def __init__(self):
-        print(f"⏳ Loading embedding model: {MODEL_NAME}...")
-        self.model = SentenceTransformer(MODEL_NAME)
-        self.driver = GraphDatabase.driver(URI, auth=AUTH)
+        print(f"⏳ Loading embedding model: {EMBEDDING_MODEL}...")
+        self.model = SentenceTransformer(EMBEDDING_MODEL)
+        self.driver = GraphDatabase.driver(NEO4J_URI, auth=NEO4J_AUTH)
 
     def close(self):
         self.driver.close()
