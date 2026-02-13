@@ -175,5 +175,12 @@ User asks: "Does CS offer M.Sc. AI?"
 - Ensure Neo4j is running before starting the server.
 - The `.gitignore` is set up to avoid tracking `venv/`, `.env`, `__pycache__/`, and other build artifacts.
 
+
+## Contributed By
+- ADEEL-308
+- RaheelFazil1
+- engrfaizan99
+- ADEEL-308
+
 ## License
 MIT License
