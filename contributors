@@ -1,0 +1,68 @@
+# Contributors
+
+This document lists the contributors to the **KAG-simple** project and describes their roles and responsibilities.
+
+---
+
+## Adeel — Technical Lead
+
+**Responsibilities:**
+- Designed the overall system and application architecture
+- Defined backend structure and Streamlit integration
+- Selected the technology stack and core libraries
+- Assigned technical tasks and guided implementation
+- Performed code reviews to ensure quality and best practices
+- Provided troubleshooting and debugging support
+
+---
+
+## Saba — Developer
+
+**Responsibilities:**
+- Developed the Streamlit-based user interface
+- Implemented backend logic and Python workflows
+- Integrated frontend and backend components
+- Handled data processing and visualization
+- Wrote unit tests to validate functionality
+- Documented code and key functions
+
+---
+
+## Raheel — Coordinator
+
+**Responsibilities:**
+- Coordinated communication between team members
+- Tracked project progress, milestones, and deadlines
+- Assisted in task definition and assignment
+- Organized meetings and managed feedback cycles
+- Supported documentation efforts
+
+---
+
+## Faizan — Manager & Documentation
+
+**Responsibilities:**
+- Oversaw project planning and timeline management
+- Coordinated project updates with the team
+- Maintained technical and non-technical documentation
+- Documented system architecture and workflows
+- Recorded meeting minutes and key decisions
+- Ensured documentation clarity and quality
+
+---
+
+## Contribution Guidelines
+
+Contributions are welcome and appreciated.
+
+**Steps to contribute:**
+1. Fork the repository
+2. Create a new branch for your feature or fix
+3. Commit changes with clear messages
+4. Open a pull request describing your updates
+
+---
+
+## Acknowledgment
+
+Thank you to everyone who contributed to making **KAG-simple** a success.
