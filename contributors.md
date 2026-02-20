@@ -65,4 +65,4 @@ Contributions are welcome and appreciated.
 
 ## Acknowledgment
 
-Thank you to everyone who contributed to making **KAG-simple** a success.
+Thank you to everyone who contributed to making **KAG-simple** a success.- TEAM KAG
